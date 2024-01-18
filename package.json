@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm --filter ./play dev",
-    "build:web-drive": "gulp -f packages/components/script/build/index.ts",
-    "publish:web-drive": "gulp -f packages/components/script/publish/index.ts"
+    "build": "gulp -f packages/components/script/build/index.ts && pnpm run --filter ./packages/utils build",
+    "publish:w": "gulp -f packages/components/script/publish/index.ts",
+    "publish:u": "gulp -f packages/utils/publish/index.ts"
   },
   "keywords": [],
   "author": "",

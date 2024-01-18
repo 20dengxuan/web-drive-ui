@@ -4,7 +4,7 @@ const index$2 = require("./src/index.js");
 const index$1 = require("./src/button/index.js");
 const index = {
   install: (app) => {
-    for (let c in index$2) {
+    for (const c in index$2) {
       app.use(index$2[c]);
     }
   }

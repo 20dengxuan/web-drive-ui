@@ -1,6 +1,4 @@
-import type { Plugin } from "vue";
-declare type SFCWithInstall<T> = T & Plugin;
-export declare const Button: SFCWithInstall<import("vue").DefineComponent<{
+export declare const Button: import("@web-drive-ui/utils/dist/lib/withinstall").SFCWithInstall<import("vue").DefineComponent<{
     type: {
         type: StringConstructor;
         required: false;
