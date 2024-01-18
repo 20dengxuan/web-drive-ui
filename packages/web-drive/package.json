@@ -1,0 +1,27 @@
+{
+  "name": "web-drive-ui",
+  "version": "1.0.4",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "web-drive-ui"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "D",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/20dengxuan/web-drive-ui"
+  }
+}
