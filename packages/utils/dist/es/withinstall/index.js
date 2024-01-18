@@ -1,4 +1,4 @@
-const withinstall = (comp) => {
+const index = (comp) => {
   comp.install = (app) => {
     const name = comp.name || comp.__name;
     app.component(name, comp);
@@ -6,5 +6,5 @@ const withinstall = (comp) => {
   return comp;
 };
 export {
-  withinstall as default
+  index as default
 };
