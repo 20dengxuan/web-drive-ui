@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: "es",
     minify: false,
     rollupOptions: {
-      external: ['vue', /\.less/, '@web-drive-ui/utils'],
+      external: ['vue', /\.less/, 'web-drive-utils'],
       input: ["index.ts"],
       output: [{
         //打包格式
