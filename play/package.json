@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-drive-ui/components": "workspace:^"
+    "@web-driver-ui/components": "workspace:^"
   }
 }

@@ -6,5 +6,5 @@
 </template>
 
 <script setup lang="ts">
-import { Button } from '@web-drive-ui/components'
+import { Button } from '@web-driver-ui/components'
 </script>

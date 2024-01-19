@@ -28,7 +28,7 @@ export default defineConfig({
         preserveModules: true,
         exports: "named",
         //配置打包根目录
-        dir: "../web-drive/lib",
+        dir: "../web-driver/lib",
       }]
     },
     lib: {
