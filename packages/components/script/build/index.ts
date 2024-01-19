@@ -7,7 +7,7 @@ import run from "../utils/run";
 
 
 export const removeDist = () => {
-  return delPath(`${pkgPath}/web-drive`);
+  return delPath(`${pkgPath}/web-driver`);
 };
 
 //打包样式
@@ -15,8 +15,8 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.less`)
     .pipe(less())
     // .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/web-drive/lib/src`))
-    .pipe(dest(`${pkgPath}/web-drive/es/src`));
+    .pipe(dest(`${pkgPath}/web-driver/lib/src`))
+    .pipe(dest(`${pkgPath}/web-driver/es/src`));
 };
 
 //打包组件

@@ -25,7 +25,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path != `${pkgPath}/web-drive`) fs.rmdirSync(path);
+    if (path != `${pkgPath}/web-driver`) fs.rmdirSync(path);
   }
 };
 export default delPath;

@@ -18,7 +18,7 @@ export default defineConfig({
         preserveModules: true,
         exports: "named",
         //配置打包根目录
-        dir: "../web-drive/es",
+        dir: "../web-driver/es",
       }, {
         //打包格式
         format: "cjs",
@@ -37,7 +37,7 @@ export default defineConfig({
   },
   plugins: [vue(), dts({
     entryRoot: "./src",
-    outputDir: ["../web-drive/es/src", "../web-drive/lib/src"],
+    outputDir: ["../web-driver/es/src", "../web-driver/lib/src"],
     //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
     tsConfigFilePath: "../../tsconfig.json",
   }), DefineOptions(), {
