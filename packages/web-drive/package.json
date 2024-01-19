@@ -1,6 +1,6 @@
 {
   "name": "web-drive-ui",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
