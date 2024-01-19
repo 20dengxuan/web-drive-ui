@@ -1,4 +1,4 @@
-export declare const Button: import("@web-drive-ui/utils/dist/lib/withinstall").SFCWithInstall<import("vue").DefineComponent<{
+export declare const Button: import("web-drive-utils/dist/lib/withinstall").SFCWithInstall<import("vue").DefineComponent<{
     type: {
         type: StringConstructor;
         required: false;
