@@ -1,5 +1,5 @@
 import _sfc_main from "./button.vue.mjs";
-import { withInstall } from "web-drive-utils";
+import withInstall from "../../utils/withinstall/index.mjs";
 const Button = withInstall(_sfc_main);
 export {
   Button,

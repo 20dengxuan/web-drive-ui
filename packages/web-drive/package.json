@@ -23,8 +23,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/20dengxuan/web-drive-ui"
-  },
-  "dependencies": {
-    "web-drive-utils": "^1.0.4"
   }
 }

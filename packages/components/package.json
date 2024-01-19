@@ -6,9 +6,6 @@
   "scripts": {
     "build": "vite build"
   },
-  "dependencies": {
-    "web-drive-utils": "workspace:^1.0.0"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"
