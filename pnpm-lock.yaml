@@ -62,7 +62,7 @@ importers:
 
   packages/components:
     dependencies:
-      '@web-drive-ui/utils':
+      web-drive-utils:
         specifier: workspace:^1.0.0
         version: link:../utils
 

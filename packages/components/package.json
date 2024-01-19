@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@web-drive-ui/utils": "workspace:^1.0.0"
+    "web-drive-utils": "workspace:^1.0.0"
   },
   "keywords": [],
   "author": "",
