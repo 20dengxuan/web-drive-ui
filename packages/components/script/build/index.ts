@@ -5,7 +5,6 @@ import less from "gulp-less";
 import autoprefixer from "gulp-autoprefixer";
 import run from "../utils/run";
 
-
 export const removeDist = () => {
   return delPath(`${pkgPath}/web-driver`);
 };
@@ -14,7 +13,7 @@ export const removeDist = () => {
 export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.less`)
     .pipe(less())
-    // .pipe(autoprefixer())
+    .pipe(autoprefixer({}))
     .pipe(dest(`${pkgPath}/web-driver/lib/src`))
     .pipe(dest(`${pkgPath}/web-driver/es/src`));
 };
